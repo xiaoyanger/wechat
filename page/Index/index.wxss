@@ -1,0 +1,30 @@
+/* pages/table/table.wxss */
+page {
+    font-size: 14px;
+    color: #333
+}
+.table {
+    border-right: 0;
+    border-bottom: 0;
+    width: 100%;
+}
+.tr {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.th,.td {
+    padding: 10px;
+    border-bottom: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    border-left: 1px solid #dadada;
+    border-top: 1px solid #dadada;
+    text-align: center;
+    width:100%;
+    border-radius:30px;
+    margin-top: 10px;
+}
+.th {
+    font-weight: 400;
+    background-color: #dadada;
+}

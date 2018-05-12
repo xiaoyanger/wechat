@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="table">
+        <view class="tr">
+            <view class="th" >
+            <navigator url="{{url1}}" class="navigator">
+              <view class="navigator-text">{{title1}}</view>
+              <view class="navigator-arrow"></view>
+            </navigator>
+            </view>
+            <view class="th">标题2</view>
+        </view>
+        <view class="tr">
+            <view class="td">标题1</view>
+            <view class="td">标题1</view>
+        </view>
+    </view>
+</view>
